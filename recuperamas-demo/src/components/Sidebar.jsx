@@ -5,20 +5,21 @@ export default function Sidebar() {
     <div className="w-64 bg-white shadow h-full flex flex-col justify-between">
       <nav className="flex-1 p-4 space-y-2">
       <NavLink
-        to="/dashboard/home"
+        to="/dashboard"
+        end
         className={({ isActive }) =>
-            `block px-4 py-2 rounded font-medium ${
+          `block px-4 py-2 rounded font-medium ${
             isActive
-                ? 'bg-[var(--color-accent)] !text-white !text-opacity-100'
-                : 'text-[var(--color-accent)] hover:bg-gray-100'
-            }`
+              ? 'bg-[var(--color-accent)] !text-white !text-opacity-100'
+              : 'text-[var(--color-accent)] hover:bg-gray-100'
+          }`
         }
-        >
-          Home
+      >
+          Dashboard
         </NavLink>
 
         <NavLink
-          to="/dashboard/notes"
+          to="/dashboard/llamadas"
           className={({ isActive }) =>
             `block px-4 py-2 rounded font-medium ${
               isActive
@@ -27,11 +28,11 @@ export default function Sidebar() {
             }`
           }
         >
-          Notes
+          Llamadas
         </NavLink>
 
         <NavLink
-          to="/dashboard/goals"
+          to="/dashboard/agentes"
           className={({ isActive }) =>
             `block px-4 py-2 rounded font-medium ${
               isActive
@@ -40,11 +41,11 @@ export default function Sidebar() {
             }`
           }
         >
-          Goals
+          Agentes
         </NavLink>
 
         <NavLink
-          to="/dashboard/activity"
+          to="/dashboard/monitoreo"
           className={({ isActive }) =>
             `block px-4 py-2 rounded font-medium ${
               isActive
@@ -53,7 +54,7 @@ export default function Sidebar() {
             }`
           }
         >
-          Activity
+          Monitoreo
         </NavLink>
       </nav>
 
