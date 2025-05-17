@@ -32,10 +32,54 @@ Utilicé **React + Vite**, junto con **Tailwind CSS** para el diseño y librerí
 
 ### 🔧 Ejecutar de forma local
 
-1. **Instalar Node.js y npm**  
-   Visita [https://nodejs.org/](https://nodejs.org/)  
-   Descarga e instala la versión LTS para tu sistema operativo.  
-   Verifica la instalación ejecutando en la terminal:
-   ```bash
-   node -v
-   npm -v
+### Ejecutar de forma local:
+
+
+1. Instalar Node.js y npm
+    Ir a: https://nodejs.org/
+
+    Descarga e instala la versión LTS para tu sistema operativo.
+
+    Verifica que se haya instalado correctamente ejecutando en tu terminal:
+
+
+2. Clonar el repositorio y ejecutar desde la terminal:
+
+    ```
+    git clone https://github.com/joaquinzepeda/demo-webapp.git
+    cd demo-webapp
+    cd recuperamas-demo
+    npm install
+    npm run dev
+    ```
+
+    Luego, bastaria con abrir el navegador en el puerto indicado, normalmente http://localhost:5173/
+
+
+### Github CodeSpaces (en la nube)
+
+Deberia bastar con abrir github codespaces, ingresar a la carpeta y realimar ```npm install``` dentro de la carpeta recuperamas-demo:
+
+    ```
+    cd recuperamas-demo
+    npm install
+    npm run dev
+    ```
+NOTA: normalmente github codespaces es un poco más lento que correrlo de forma local, pero no deberia ser mucha diferencia.
+
+
+## Mejoras futuras
+Por tiempo, no pude implementar algunas ideas adicionales que lo hubieran hecho mejor, como:
+
+* Visualización de mapas y geolocalización de llamadas.
+
+* Detección de tendencias de respuesta a lo largo del tiempo.
+
+* Análisis de respuestas comunes de usuarios.
+
+* Alertas automáticas para agentes con bajo rendimiento.
+
+* Página de feedback para recopilar opiniones de los usuarios.
+
+
+   
