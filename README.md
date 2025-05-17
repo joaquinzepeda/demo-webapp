@@ -1,6 +1,6 @@
 # Demo WEBAPP – React + Vite
 
-![Demostración de la App](video_demostracion/demo.gif)
+![Demostración de la App](Video_demostracion/demo.gif)
 
 Proyecto demo de la WebApp **RecuperaMás**. Lo ideal habría sido realizar un breve borrador o *mockup* en Figma (u otra plataforma similar) antes de comenzar a codificar, definiendo la paleta de colores y los requerimientos básicos. Sin embargo, dado que se trata de una demo, opté por una implementación más minimalista.
 
