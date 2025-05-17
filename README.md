@@ -4,6 +4,9 @@ Proyecto demo de WebApp RecuperaMas. Lo ideal seria realizar un breve borrador o
 
 Realice un código base, pero tiene gran espacio de mejora. Además, en este repositorio deje un video de demostración para que se pueda observar como funciona sin necesidad de correr el código.
 
+
+IMPORTANTE: para inicar sesion basta con poner un correo y cualquier contraseña. 
+
 ## Paleta de colores:
 
 Primero, extraje los colores princiales de la página, en donde se muestra un color azul oscuro en el navbar, blanco de fondo que se intercala con  morados. Además, extraje algunas imagenes utiles desde la misma página.
