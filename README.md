@@ -1,5 +1,3 @@
-[![Ver video](https://i.sstatic.net/Vp2cE.png)](video_demostracion/RecuperaMAS%20-%20Google%20Chrome%202025-05-16%2019-43-00.mp4)
-
 # Demo WEBAPP – React + Vite
 
 Proyecto demo de WebApp RecuperaMas. Lo ideal seria realizar un breve borrador o mockup en Figma o alguna plataforma similar, antes de comenzar a realizar código, definiendo la paleta de colores y los requierimientos básicos, pero dado que es una demo realizaré algo más minimalista. 
